@@ -1,4 +1,4 @@
 FROM alpine:3.17
-ADD go-bookinfo-detail /app/app
+ADD go-bookinfo-* /app/app
 EXPOSE 8000
 ENTRYPOINT [ "/app/app" ]
